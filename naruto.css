@@ -221,3 +221,137 @@ button:active{
   margin-left: 10px;
   font-weight: 600;
 }
+/* Responsive design for smaller screens */
+@media (max-width: 1200px) {
+    .material, .material1, .material2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .container2 video, .container3 video, .container4 video {
+        width: 90%;
+        height: auto;
+    }
+    
+    .text, .text1, .text2 {
+        margin-top: 20px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .container2, .container3, .container4 {
+        height: auto;
+        padding-bottom: 40px;
+    }
+    
+    h1 {
+        font-size: 60px;
+        margin-left: 30px;
+        margin-top: 200px;
+    }
+    
+    p {
+        margin-left: 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+    .container1::after {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 48px;
+        margin-left: 5vw;
+        margin-top: 180px;
+    }
+
+    p {
+        margin-left: 5vw;
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    .material,
+    .material1,
+    .material2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .text,
+    .text1,
+    .text2 {
+        margin-top: 30px;
+        height: auto;
+        width: 90%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .container2 img,
+    .container3 video,
+    .container4 img,
+    .container4 video {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .container2,
+    .container3,
+    .container4 {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .container2::before,
+    .container3::before,
+    .container4::before {
+        font-size: 120px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+        margin-top: 120px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .container1::after {
+        width: 60px;
+        height: 60px;
+    }
+
+    #cursor {
+        display: none; /* Hide cursor on small screens */
+    }
+
+    .material h2,
+    .material1 h2,
+    .material2 h2 {
+        font-size: 24px;
+    }
+
+    .material p,
+    .material1 p,
+    .material2 p {
+        font-size: 15px;
+    }
+}

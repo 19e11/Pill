@@ -98,7 +98,7 @@ None
 
 👤 Author
 --------
-The Naruto: The Shinobi Website project was created by [Yours Truly](github.com/19e11).
+The Naruto: The Shinobi Website project was created by [Yours Truly](https://github.com/19e11).
 
 📝 License
 --------
